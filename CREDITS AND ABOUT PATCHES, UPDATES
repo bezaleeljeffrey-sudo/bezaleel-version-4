@@ -1,0 +1,47 @@
+# 🗣️ Bezaleel - Voice Digital Assistant
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+**Bezaleel** is a fully local, voice-controlled digital assistant built in Python. It combines traditional assistant features with smart local AI responses powered by Ollama (gemma2:2b).
+
+### ✨ Key Features
+
+- Real voice input using microphone (no wake word required)
+- Loud and clear Text-to-Speech using gTTS + pydub
+- Open popular websites and apps (YouTube, Spotify, JioSaavn, Twitter/X, Reddit, Gmail, WhatsApp, etc.)
+- Music support — Play songs or open music platforms
+- Local AI responses (gemma2:2b) for smart conversations
+- News, Weather, Time & Date
+- Jokes, Motivational Quotes
+- Integrated Student Database (250 students across 5 sections)
+- Clean interactive UI in JupyterLab
+
+### 🎤 Example Commands
+
+**AI Mode (Smart):**
+- `smart explain AI in simple words`
+- `smart give me a detailed explanation of how the internet works`
+
+**Regular Commands:**
+- `open spotify`
+- `open jiosaavn`
+- `play song perfect`
+- `news`
+- `total students`
+- `average of section a`
+- `highest marks`
+- `how are you`
+
+### Prerequisites
+
+- Python 3.9+
+- JupyterLab
+- Ollama (with `gemma2:2b` model)
+- Microphone
+- FFmpeg (for louder voice)
+
+**Install the model:**
+```bash
+ollama pull gemma2:2b
