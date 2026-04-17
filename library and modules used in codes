@@ -1,0 +1,38 @@
+Prerequisites
+Before running Bezaleel, make sure you have the following:
+
+1. Hardware Requirements
+Recommended: 16 GB RAM or more (32 GB ideal for better AI performance)
+Working microphone
+Internet connection (for voice recognition, opening websites, and initial model download) 
+
+2. Software Requirements
+Python 3.9 or higher
+JupyterLab (recommended) or Jupyter Notebook
+Ollama (for local AI) → Download from https://ollama.com
+FFmpeg (required for louder voice output)
+
+3. Ollama Model
+Pull the Gemma model (light and fast):
+
+ollama pull gemma2:2b
+Keep ollama serve running in the background (Command Prompt / Terminal).
+
+4. Python Packages
+Create a requirements.txt file with the following content:
+
+gtts
+speechrecognition
+pyaudio
+pydub
+ipywidgets
+ollama
+pandas
+numpy
+openpyxl
+Install all dependencies with:
+pip install -r requirements.txt
+
+5. Optional
+OpenWeatherMap API key (if you want to enable weather feature) from https://home.openweathermap.org/api_keys 
+to get API key
